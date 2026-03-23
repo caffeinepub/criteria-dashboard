@@ -1,4 +1,3 @@
-import CriteriaSetup from "@/components/CriteriaSetup";
 import OrderTable from "@/components/OrderTable";
 import SummaryCards from "@/components/SummaryCards";
 import { Button } from "@/components/ui/button";
@@ -97,9 +96,6 @@ export default function Criteria({ activeTab, onTabChange }: CriteriaProps) {
 
       {/* Summary cards */}
       <SummaryCards />
-
-      {/* Criteria Setup - Team Lead */}
-      <CriteriaSetup />
 
       {/* Work History collapsible card */}
       <div
